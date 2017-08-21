@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+	QLineEdit *line = new QLineEdit();
+	ui->line->setText("hello");
 }
 
 MainWindow::~MainWindow()
